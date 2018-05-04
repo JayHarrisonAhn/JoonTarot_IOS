@@ -19,10 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GsU-Db-l9d">
-                                <rect key="frame" x="5" y="20" width="365" height="320"/>
+                                <rect key="frame" x="5" y="20" width="365" height="330"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="0VV-hp-T6a"/>
+                                    <constraint firstAttribute="height" constant="330" id="0VV-hp-T6a"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ahX-wy-XmL">
                                     <size key="itemSize" width="176" height="314"/>
@@ -32,13 +32,13 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Card" id="5ff-iW-pbY" customClass="PickCardCell" customModule="JoonTarot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="3" width="176" height="314"/>
+                                        <rect key="frame" x="0.0" y="8" width="176" height="314"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="176" height="314"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2KR-xp-qwW">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2KR-xp-qwW">
                                                     <rect key="frame" x="12" y="25" width="151" height="265"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="200" id="Wnr-Ex-U7X"/>
