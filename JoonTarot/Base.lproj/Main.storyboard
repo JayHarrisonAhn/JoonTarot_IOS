@@ -18,9 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAp-5G-eNS">
-                                <rect key="frame" x="230" y="429" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joon Tarot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGm-aL-Y4g">
+                                <rect key="frame" x="71" y="285" width="233.5" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57.5" id="ECs-UC-3gj"/>
+                                    <constraint firstAttribute="width" constant="233.5" id="ng9-j5-cup"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for CAUCSE STEAMERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fE-HQ-1Ik">
+                                <rect key="frame" x="87.5" y="340" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4pn-Ae-Nqm"/>
+                                    <constraint firstAttribute="height" constant="21" id="jcL-dC-9gA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAp-5G-eNS">
+                                <rect key="frame" x="221" y="369" width="83" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="BKr-ah-KBL"/>
+                                    <constraint firstAttribute="width" constant="83" id="Qen-FS-1kF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Go to Pick"/>
                                 <connections>
                                     <segue destination="4sb-L9-geU" kind="show" id="43U-k5-O88"/>
@@ -28,6 +52,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XAp-5G-eNS" firstAttribute="top" secondItem="1fE-HQ-1Ik" secondAttribute="bottom" constant="8" id="613-Cj-kLT"/>
+                            <constraint firstItem="sGm-aL-Y4g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="E3L-57-BDo"/>
+                            <constraint firstItem="1fE-HQ-1Ik" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RlU-l6-bL5"/>
+                            <constraint firstItem="sGm-aL-Y4g" firstAttribute="trailing" secondItem="XAp-5G-eNS" secondAttribute="trailing" id="S97-Bh-uTF"/>
+                            <constraint firstItem="sGm-aL-Y4g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wd5-VD-G4G"/>
+                            <constraint firstItem="1fE-HQ-1Ik" firstAttribute="top" secondItem="sGm-aL-Y4g" secondAttribute="top" constant="55" id="ydz-MG-Rya"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="PO4-ks-0Dc"/>
