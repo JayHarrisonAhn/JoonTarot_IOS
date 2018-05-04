@@ -17,23 +17,6 @@
 		84AC1A81209CE5FF009C9BB1 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC1A7F209CE5FF009C9BB1 /* AuthorizationViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		840DE30C209C85C40012F490 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 840DE2EF209C85C30012F490 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 840DE2F6209C85C30012F490;
-			remoteInfo = JoonTarot;
-		};
-		840DE317209C85C40012F490 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 840DE2EF209C85C30012F490 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 840DE2F6209C85C30012F490;
-			remoteInfo = JoonTarot;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		840DE2F7209C85C30012F490 /* JoonTarot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoonTarot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840DE2FA209C85C30012F490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +24,6 @@
 		840DE301209C85C40012F490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840DE304209C85C40012F490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840DE306209C85C40012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		840DE30B209C85C40012F490 /* JoonTarotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoonTarotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		840DE316209C85C40012F490 /* JoonTarotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoonTarotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840DE329209C91F10012F490 /* PickCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardViewController.swift; sourceTree = "<group>"; };
 		840DE32B209C921E0012F490 /* PickCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickCard.storyboard; sourceTree = "<group>"; };
 		84AC1A7E209CE5FF009C9BB1 /* Authorization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
@@ -51,20 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		840DE2F4209C85C30012F490 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840DE308209C85C40012F490 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840DE313209C85C40012F490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				840DE2F7209C85C30012F490 /* JoonTarot.app */,
-				840DE30B209C85C40012F490 /* JoonTarotTests.xctest */,
-				840DE316209C85C40012F490 /* JoonTarotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,42 +109,6 @@
 			productReference = 840DE2F7209C85C30012F490 /* JoonTarot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		840DE30A209C85C40012F490 /* JoonTarotTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 840DE322209C85C40012F490 /* Build configuration list for PBXNativeTarget "JoonTarotTests" */;
-			buildPhases = (
-				840DE307209C85C40012F490 /* Sources */,
-				840DE308209C85C40012F490 /* Frameworks */,
-				840DE309209C85C40012F490 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				840DE30D209C85C40012F490 /* PBXTargetDependency */,
-			);
-			name = JoonTarotTests;
-			productName = JoonTarotTests;
-			productReference = 840DE30B209C85C40012F490 /* JoonTarotTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		840DE315209C85C40012F490 /* JoonTarotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 840DE325209C85C40012F490 /* Build configuration list for PBXNativeTarget "JoonTarotUITests" */;
-			buildPhases = (
-				840DE312209C85C40012F490 /* Sources */,
-				840DE313209C85C40012F490 /* Frameworks */,
-				840DE314209C85C40012F490 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				840DE318209C85C40012F490 /* PBXTargetDependency */,
-			);
-			name = JoonTarotUITests;
-			productName = JoonTarotUITests;
-			productReference = 840DE316209C85C40012F490 /* JoonTarotUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,14 +121,6 @@
 				TargetAttributes = {
 					840DE2F6209C85C30012F490 = {
 						CreatedOnToolsVersion = 9.3;
-					};
-					840DE30A209C85C40012F490 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 840DE2F6209C85C30012F490;
-					};
-					840DE315209C85C40012F490 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 840DE2F6209C85C30012F490;
 					};
 				};
 			};
@@ -217,8 +138,6 @@
 			projectRoot = "";
 			targets = (
 				840DE2F6209C85C30012F490 /* JoonTarot */,
-				840DE30A209C85C40012F490 /* JoonTarotTests */,
-				840DE315209C85C40012F490 /* JoonTarotUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +155,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		840DE309209C85C40012F490 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840DE314209C85C40012F490 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,34 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		840DE307209C85C40012F490 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840DE312209C85C40012F490 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		840DE30D209C85C40012F490 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 840DE2F6209C85C30012F490 /* JoonTarot */;
-			targetProxy = 840DE30C209C85C40012F490 /* PBXContainerItemProxy */;
-		};
-		840DE318209C85C40012F490 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 840DE2F6209C85C30012F490 /* JoonTarot */;
-			targetProxy = 840DE317209C85C40012F490 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		840DE2FE209C85C30012F490 /* Main.storyboard */ = {
@@ -462,88 +340,6 @@
 			};
 			name = Release;
 		};
-		840DE323209C85C40012F490 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DYNS5BXWD7;
-				INFOPLIST_FILE = JoonTarotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ac.kr.cau.JoonTarotTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoonTarot.app/JoonTarot";
-			};
-			name = Debug;
-		};
-		840DE324209C85C40012F490 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DYNS5BXWD7;
-				INFOPLIST_FILE = JoonTarotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ac.kr.cau.JoonTarotTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoonTarot.app/JoonTarot";
-			};
-			name = Release;
-		};
-		840DE326209C85C40012F490 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DYNS5BXWD7;
-				INFOPLIST_FILE = JoonTarotUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ac.kr.cau.JoonTarotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JoonTarot;
-			};
-			name = Debug;
-		};
-		840DE327209C85C40012F490 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DYNS5BXWD7;
-				INFOPLIST_FILE = JoonTarotUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ac.kr.cau.JoonTarotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JoonTarot;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -561,24 +357,6 @@
 			buildConfigurations = (
 				840DE320209C85C40012F490 /* Debug */,
 				840DE321209C85C40012F490 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		840DE322209C85C40012F490 /* Build configuration list for PBXNativeTarget "JoonTarotTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				840DE323209C85C40012F490 /* Debug */,
-				840DE324209C85C40012F490 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		840DE325209C85C40012F490 /* Build configuration list for PBXNativeTarget "JoonTarotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				840DE326209C85C40012F490 /* Debug */,
-				840DE327209C85C40012F490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
