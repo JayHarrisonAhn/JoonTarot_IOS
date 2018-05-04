@@ -14,6 +14,8 @@
 		840DE305209C85C40012F490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DE303209C85C40012F490 /* LaunchScreen.storyboard */; };
 		840DE310209C85C40012F490 /* JoonTarotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DE30F209C85C40012F490 /* JoonTarotTests.swift */; };
 		840DE31B209C85C40012F490 /* JoonTarotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DE31A209C85C40012F490 /* JoonTarotUITests.swift */; };
+		840DE32A209C91F10012F490 /* PickCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DE329209C91F10012F490 /* PickCardViewController.swift */; };
+		840DE32C209C921E0012F490 /* PickCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DE32B209C921E0012F490 /* PickCard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		840DE316209C85C40012F490 /* JoonTarotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoonTarotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840DE31A209C85C40012F490 /* JoonTarotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoonTarotUITests.swift; sourceTree = "<group>"; };
 		840DE31C209C85C40012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840DE329209C91F10012F490 /* PickCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardViewController.swift; sourceTree = "<group>"; };
+		840DE32B209C921E0012F490 /* PickCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickCard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		840DE2F9209C85C30012F490 /* JoonTarot */ = {
 			isa = PBXGroup;
 			children = (
+				840DE328209C91D30012F490 /* PickCard */,
 				840DE2FA209C85C30012F490 /* AppDelegate.swift */,
 				840DE2FC209C85C30012F490 /* ViewController.swift */,
 				840DE2FE209C85C30012F490 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				840DE31C209C85C40012F490 /* Info.plist */,
 			);
 			path = JoonTarotUITests;
+			sourceTree = "<group>";
+		};
+		840DE328209C91D30012F490 /* PickCard */ = {
+			isa = PBXGroup;
+			children = (
+				840DE32B209C921E0012F490 /* PickCard.storyboard */,
+				840DE329209C91F10012F490 /* PickCardViewController.swift */,
+			);
+			path = PickCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 				840DE305209C85C40012F490 /* LaunchScreen.storyboard in Resources */,
 				840DE302209C85C40012F490 /* Assets.xcassets in Resources */,
 				840DE300209C85C30012F490 /* Main.storyboard in Resources */,
+				840DE32C209C921E0012F490 /* PickCard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840DE2FD209C85C30012F490 /* ViewController.swift in Sources */,
+				840DE32A209C91F10012F490 /* PickCardViewController.swift in Sources */,
 				840DE2FB209C85C30012F490 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
