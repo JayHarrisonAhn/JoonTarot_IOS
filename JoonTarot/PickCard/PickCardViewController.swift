@@ -15,11 +15,11 @@ class PickCardViewController: UIViewController, UICollectionViewDataSource, UICo
     var cardSet:[UInt32] = []
     
     func isThere(_ num:UInt32) -> Bool {
-        for i in 0...cardSet.count {
-            if i==0 {
-                return false
-            }
-            if cardSet[i-1] == num {
+        if cardSet.count==0 {
+            return false
+        }
+        for i in 1...cardSet.count {
+            if (cardSet[i-1]%22) == (num%22) {
                 return true
             }
         }
