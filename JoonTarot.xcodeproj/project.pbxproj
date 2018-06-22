@@ -13,6 +13,7 @@
 		840DE305209C85C40012F490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DE303209C85C40012F490 /* LaunchScreen.storyboard */; };
 		840DE32A209C91F10012F490 /* PickCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DE329209C91F10012F490 /* PickCardViewController.swift */; };
 		840DE32C209C921E0012F490 /* PickCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DE32B209C921E0012F490 /* PickCard.storyboard */; };
+		84AB212020DCC2940028CD41 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB211F20DCC2940028CD41 /* More.storyboard */; };
 		84AC1A80209CE5FF009C9BB1 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AC1A7E209CE5FF009C9BB1 /* Authorization.storyboard */; };
 		84AC1A81209CE5FF009C9BB1 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC1A7F209CE5FF009C9BB1 /* AuthorizationViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		840DE306209C85C40012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840DE329209C91F10012F490 /* PickCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardViewController.swift; sourceTree = "<group>"; };
 		840DE32B209C921E0012F490 /* PickCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickCard.storyboard; sourceTree = "<group>"; };
+		84AB211F20DCC2940028CD41 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		84AC1A7E209CE5FF009C9BB1 /* Authorization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
 		84AC1A7F209CE5FF009C9BB1 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 			children = (
 				84AC1A7D209CE5FF009C9BB1 /* Authorization */,
 				840DE328209C91D30012F490 /* PickCard */,
+				84AB211E20DCC2740028CD41 /* More */,
 				840DE2FA209C85C30012F490 /* AppDelegate.swift */,
 				840DE2FE209C85C30012F490 /* Main.storyboard */,
 				840DE301209C85C40012F490 /* Assets.xcassets */,
@@ -78,6 +81,14 @@
 				840DE329209C91F10012F490 /* PickCardViewController.swift */,
 			);
 			path = PickCard;
+			sourceTree = "<group>";
+		};
+		84AB211E20DCC2740028CD41 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				84AB211F20DCC2940028CD41 /* More.storyboard */,
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 		84AC1A7D209CE5FF009C9BB1 /* Authorization */ = {
@@ -148,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840DE305209C85C40012F490 /* LaunchScreen.storyboard in Resources */,
+				84AB212020DCC2940028CD41 /* More.storyboard in Resources */,
 				84AC1A80209CE5FF009C9BB1 /* Authorization.storyboard in Resources */,
 				840DE302209C85C40012F490 /* Assets.xcassets in Resources */,
 				840DE300209C85C30012F490 /* Main.storyboard in Resources */,
