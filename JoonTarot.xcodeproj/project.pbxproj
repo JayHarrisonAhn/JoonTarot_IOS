@@ -12,8 +12,10 @@
 		840DE302209C85C40012F490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840DE301209C85C40012F490 /* Assets.xcassets */; };
 		840DE305209C85C40012F490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DE303209C85C40012F490 /* LaunchScreen.storyboard */; };
 		840DE32A209C91F10012F490 /* PickCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DE329209C91F10012F490 /* PickCardViewController.swift */; };
-		840DE32C209C921E0012F490 /* PickCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DE32B209C921E0012F490 /* PickCard.storyboard */; };
-		84AB212020DCC2940028CD41 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB211F20DCC2940028CD41 /* More.storyboard */; };
+		84AB212220DCC7AE0028CD41 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB212120DCC7AE0028CD41 /* Tutorial.storyboard */; };
+		84AB213620DCCE5E0028CD41 /* PickCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB213820DCCE5E0028CD41 /* PickCard.storyboard */; };
+		84AB214020DCD7A80028CD41 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB213F20DCD7A80028CD41 /* MainPageViewController.swift */; };
+		84AB214120DCD86F0028CD41 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB214320DCD86F0028CD41 /* More.storyboard */; };
 		84AC1A80209CE5FF009C9BB1 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AC1A7E209CE5FF009C9BB1 /* Authorization.storyboard */; };
 		84AC1A81209CE5FF009C9BB1 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC1A7F209CE5FF009C9BB1 /* AuthorizationViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,8 +28,16 @@
 		840DE304209C85C40012F490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840DE306209C85C40012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840DE329209C91F10012F490 /* PickCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardViewController.swift; sourceTree = "<group>"; };
-		840DE32B209C921E0012F490 /* PickCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickCard.storyboard; sourceTree = "<group>"; };
-		84AB211F20DCC2940028CD41 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		84AB212120DCC7AE0028CD41 /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		84AB212820DCCA670028CD41 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		84AB212920DCCA670028CD41 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84AB213720DCCE5E0028CD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PickCard.storyboard; sourceTree = "<group>"; };
+		84AB213A20DCCE730028CD41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PickCard.strings; sourceTree = "<group>"; };
+		84AB213C20DCCE740028CD41 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PickCard.strings; sourceTree = "<group>"; };
+		84AB213F20DCD7A80028CD41 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		84AB214220DCD86F0028CD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/More.storyboard; sourceTree = "<group>"; };
+		84AB214520DCD8700028CD41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/More.strings; sourceTree = "<group>"; };
+		84AB214720DCD8720028CD41 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/More.strings; sourceTree = "<group>"; };
 		84AC1A7E209CE5FF009C9BB1 /* Authorization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
 		84AC1A7F209CE5FF009C9BB1 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +72,7 @@
 		840DE2F9209C85C30012F490 /* JoonTarot */ = {
 			isa = PBXGroup;
 			children = (
+				84AB212320DCC7B20028CD41 /* Tutorial */,
 				84AC1A7D209CE5FF009C9BB1 /* Authorization */,
 				840DE328209C91D30012F490 /* PickCard */,
 				84AB211E20DCC2740028CD41 /* More */,
@@ -77,8 +88,9 @@
 		840DE328209C91D30012F490 /* PickCard */ = {
 			isa = PBXGroup;
 			children = (
-				840DE32B209C921E0012F490 /* PickCard.storyboard */,
+				84AB213820DCCE5E0028CD41 /* PickCard.storyboard */,
 				840DE329209C91F10012F490 /* PickCardViewController.swift */,
+				84AB213F20DCD7A80028CD41 /* MainPageViewController.swift */,
 			);
 			path = PickCard;
 			sourceTree = "<group>";
@@ -86,9 +98,17 @@
 		84AB211E20DCC2740028CD41 /* More */ = {
 			isa = PBXGroup;
 			children = (
-				84AB211F20DCC2940028CD41 /* More.storyboard */,
+				84AB214320DCD86F0028CD41 /* More.storyboard */,
 			);
 			path = More;
+			sourceTree = "<group>";
+		};
+		84AB212320DCC7B20028CD41 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				84AB212120DCC7AE0028CD41 /* Tutorial.storyboard */,
+			);
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 		84AC1A7D209CE5FF009C9BB1 /* Authorization */ = {
@@ -142,6 +162,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 840DE2EE209C85C30012F490;
 			productRefGroup = 840DE2F8209C85C30012F490 /* Products */;
@@ -159,11 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				840DE305209C85C40012F490 /* LaunchScreen.storyboard in Resources */,
-				84AB212020DCC2940028CD41 /* More.storyboard in Resources */,
+				84AB212220DCC7AE0028CD41 /* Tutorial.storyboard in Resources */,
+				84AB214120DCD86F0028CD41 /* More.storyboard in Resources */,
 				84AC1A80209CE5FF009C9BB1 /* Authorization.storyboard in Resources */,
 				840DE302209C85C40012F490 /* Assets.xcassets in Resources */,
 				840DE300209C85C30012F490 /* Main.storyboard in Resources */,
-				840DE32C209C921E0012F490 /* PickCard.storyboard in Resources */,
+				84AB213620DCCE5E0028CD41 /* PickCard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AB214020DCD7A80028CD41 /* MainPageViewController.swift in Sources */,
 				84AC1A81209CE5FF009C9BB1 /* AuthorizationViewController.swift in Sources */,
 				840DE32A209C91F10012F490 /* PickCardViewController.swift in Sources */,
 				840DE2FB209C85C30012F490 /* AppDelegate.swift in Sources */,
@@ -187,6 +210,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				840DE2FF209C85C30012F490 /* Base */,
+				84AB212820DCCA670028CD41 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -195,8 +219,29 @@
 			isa = PBXVariantGroup;
 			children = (
 				840DE304209C85C40012F490 /* Base */,
+				84AB212920DCCA670028CD41 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84AB213820DCCE5E0028CD41 /* PickCard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AB213720DCCE5E0028CD41 /* Base */,
+				84AB213A20DCCE730028CD41 /* en */,
+				84AB213C20DCCE740028CD41 /* ko */,
+			);
+			name = PickCard.storyboard;
+			sourceTree = "<group>";
+		};
+		84AB214320DCD86F0028CD41 /* More.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AB214220DCD86F0028CD41 /* Base */,
+				84AB214520DCD8700028CD41 /* en */,
+				84AB214720DCD8720028CD41 /* ko */,
+			);
+			name = More.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -206,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -266,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Joon Tarot"; ObjectID = "E74-UN-Cdt"; */
+"E74-UN-Cdt.text" = "Joon Tarot";
+
+/* Class = "UIButton"; normalTitle = "Go to Pick"; ObjectID = "HkR-zA-Rqy"; */
+"HkR-zA-Rqy.normalTitle" = "타로 뽑기  >";
+
+/* Class = "UITabBarItem"; title = "PickCard"; ObjectID = "qTX-SM-Gnk"; */
+"qTX-SM-Gnk.title" = "타로 뽑기";
+
+/* Class = "UILabel"; text = "for CAUCSE STEAMERS"; ObjectID = "xmu-mG-GNQ"; */
+"xmu-mG-GNQ.text" = "for CAUCSE STEAMERS";

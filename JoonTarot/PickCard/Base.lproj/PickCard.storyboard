@@ -66,7 +66,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UUf-Nr-pvB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="48a-di-Esp"/>
                     <connections>
                         <outlet property="collectionView" destination="GsU-Db-l9d" id="u8t-z0-eb1"/>
                     </connections>
@@ -75,46 +74,68 @@
             </objects>
             <point key="canvasLocation" x="4749" y="-590"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Page View Controller-->
         <scene sceneID="hVH-1y-qaG">
             <objects>
-                <viewController id="L0K-8v-2Wo" customClass="ViewController" customModule="JoonTarot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="L0K-8v-2Wo" customClass="MainPageViewController" customModule="JoonTarot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J16-QV-MBS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joon Tarot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E74-UN-Cdt">
-                                <rect key="frame" x="16" y="78" width="138" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkR-zA-Rqy">
-                                <rect key="frame" x="221" y="369" width="83" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Go to Pick"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="VOn-Wu-Pe8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkR-zA-Rqy">
+                                <rect key="frame" x="238" y="462.66666666666669" width="139" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="UWk-RR-3uF"/>
+                                    <constraint firstAttribute="width" constant="139" id="ftJ-i0-iBS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="Go to Pick  &gt;">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="MoO-PL-QBx" kind="show" id="uaD-pc-HWp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="for CAUCSE STEAMERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmu-mG-GNQ">
-                                <rect key="frame" x="16" y="120" width="200" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joon Tarot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E74-UN-Cdt">
+                                <rect key="frame" x="57.666666666666657" y="331.66666666666669" width="298.66666666666674" height="74"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="62"/>
+                                <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for CAUCSE STEAMERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmu-mG-GNQ">
+                                <rect key="frame" x="82.333333333333314" y="393.66666666666669" width="250" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="AvE-5Z-fVd"/>
+                                    <constraint firstAttribute="height" constant="24" id="txe-gS-1gL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VOn-Wu-Pe8" firstAttribute="leading" secondItem="fMS-HC-S45" secondAttribute="leading" id="45T-qI-fWs"/>
+                            <constraint firstItem="xmu-mG-GNQ" firstAttribute="top" secondItem="E74-UN-Cdt" secondAttribute="top" constant="62" id="6fU-7D-VaC"/>
+                            <constraint firstItem="VOn-Wu-Pe8" firstAttribute="top" secondItem="J16-QV-MBS" secondAttribute="top" id="9ro-3t-74m"/>
+                            <constraint firstItem="E74-UN-Cdt" firstAttribute="centerX" secondItem="J16-QV-MBS" secondAttribute="centerX" id="HFD-yW-U5v"/>
+                            <constraint firstItem="HkR-zA-Rqy" firstAttribute="top" secondItem="xmu-mG-GNQ" secondAttribute="bottom" constant="45" id="S9a-FF-Y4e"/>
+                            <constraint firstItem="xmu-mG-GNQ" firstAttribute="centerX" secondItem="J16-QV-MBS" secondAttribute="centerX" id="Vee-TF-XWm"/>
+                            <constraint firstItem="fMS-HC-S45" firstAttribute="trailing" secondItem="VOn-Wu-Pe8" secondAttribute="trailing" id="Yfb-ip-Ep3"/>
+                            <constraint firstItem="E74-UN-Cdt" firstAttribute="centerY" secondItem="J16-QV-MBS" secondAttribute="centerY" id="cMw-lx-MPw"/>
+                            <constraint firstItem="fMS-HC-S45" firstAttribute="trailing" secondItem="HkR-zA-Rqy" secondAttribute="trailing" constant="37" id="d0h-UB-6e2"/>
+                            <constraint firstItem="fMS-HC-S45" firstAttribute="bottom" secondItem="VOn-Wu-Pe8" secondAttribute="bottom" id="y2c-vz-q9E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fMS-HC-S45"/>
                     </view>
                     <navigationItem key="navigationItem" id="pOZ-16-DSB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zjh-j6-0bY" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3886" y="-590"/>
+            <point key="canvasLocation" x="3885.507246376812" y="-590.21739130434787"/>
         </scene>
         <!--PickCard-->
         <scene sceneID="ihc-tK-FDY">
@@ -137,6 +158,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="1920" height="1365"/>
         <image name="tarot" width="32" height="32"/>
     </resources>
 </document>
